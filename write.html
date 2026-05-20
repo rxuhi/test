@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>글쓰기</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="write-container">
+
+    <h1>✍ 고민 작성</h1>
+
+    <form method="POST">
+
+        <input type="text"
+               name="title"
+               placeholder="제목">
+
+        <textarea name="content"
+                  placeholder="고민을 적어보세요"></textarea>
+
+        <select name="mbti">
+
+            <option>INTP</option>
+            <option>ENFP</option>
+            <option>ISTJ</option>
+            <option>INFJ</option>
+
+        </select>
+
+        <button type="submit">
+            게시하기
+        </button>
+
+    </form>
+
+</div>
+
+</body>
+</html>
